@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: Roboto;
+    align-items: center;
+    box-sizing: border-box;
+
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: rgba(170, 26, 0, 0.8);
+    top: 0;
+    width: 100%;
+}
+
+.nav-links {
+    list-style: none;
+    float: right;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+
+
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+    color: green;
+}
+
+.nav-links li a:hover {
+    color: rgb(246, 245, 245);
+
+}
+
+.logo {
+    cursor: pointer;
+    height: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.about-us {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-family: Lato;
+    text-align: center;
+    background-color: rgba(251, 251, 251, 0.938);
+    background-clip: padding-box;
+
+
+}
+
+#intro {
+    margin-top: 2rem;
+    font-family: Lato;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: rgb(233, 0, 0);
+    line-height: 1.5;
+
+}
+
+.tit {
+    text-decoration: underline;
+}
+
+.a {
+    width: 400px;
+    max-width: 850px;
+    padding: 1.35em;
+
+}
+
+.img-container {
+    padding-top: 1.5rem;
+
+}
+
+.about-us h1 {
+    color: blue;
+}
+
+.nm-container {
+    justify-content: space-between;
+    display: flex;
+    background-color: rgba(0, 255, 0, 0.6);
+    background-clip: padding-box;
+
+}
+
+.text {
+    color: rgba(0, 0, 193, 0.699);
+}
+
+.nm-imgs {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.nm-imgs img {
+    width: 400px;
+    margin: 1rem;
+}
+
+.finisher {
+    padding-top: 2rem;
+    display: block;
+text-align: center;
+    align-items: center;
+    background-color: rgb(160, 160, 236);
+    
+
+
+}
+
+.finisher img {
+    width: 50%;
+    padding-top: 1rem;
+    padding-bottom: 1.25rem;
+}
+
+.finisher h1 {
+    color: rgb(175, 15, 15, 0.8);
+}
+.h1{
+    padding-bottom: 1rem;
+}
+@media screen and (max-width: 768px) {
+
+    body {
+      padding: 20px;
+    }
+    
+ 
+    .wide-element {
+      width: 100%;
+      max-width: 100%;
+    }
+    
+    
+    .horizontal-stack {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    
+   
+    h1, h2 {
+      font-size: 1.5rem;
+      line-height: 1.2;
+    }
+    
+
+    .desktop-only {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 24px;
+    }
+    
+    p {
+      font-size: 16px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .hide-on-small {
+      display: none;
+    }
+    
+    .show-on-small {
+      display: block;
+    }
+  }
+    
